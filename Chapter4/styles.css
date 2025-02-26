@@ -1,0 +1,37 @@
+/*Liam My CSS Sheet */
+
+body{
+    color:#926f4f;
+    background-color:#d7c7aa;
+    font-family: "Arial",sans-serif;
+}
+
+h3,h2{
+    color:#342517;
+}
+#header{
+    font-style:italic;
+    font-weight: bold;
+    font-size:30px;
+    background-color:#00602b;
+    text-align: center;
+    color: #ffffff
+}
+
+p{
+color:#230e06;
+background-color:#ffffff
+}
+#highlight{
+    font-weight:bold;
+    color:#ee1e28;
+    font-style: italic;
+}
+#footer{
+    text-align:center;
+    color:white;
+    background-color: #bb161d;
+}
+#special-item{
+    background-color: white;
+}

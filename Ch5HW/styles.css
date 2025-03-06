@@ -1,0 +1,63 @@
+/*Liam My CSS Sheet */
+/*I couldn't find a source for the images used in the example, so I improvised with stock images found on google*/
+main{
+    font-weight: bold;
+    background-image: url(background.webp);
+    background-repeat: repeat-x;
+}
+
+body{
+    color:#926f4f;
+    background-color:#d7c7aa;
+    font-family: "Arial",sans-serif;
+}
+
+nav{
+    height:35px;
+}
+
+a:link {
+    color: #8b1010;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ a:hover {
+    text-decoration: underline;
+    background-color: #000;
+    color:#fff;
+}
+a:visited{
+    color:#00602b;
+    background-color: #fff;
+}
+
+h3,h2{
+    color:#342517;
+}
+#header{
+    font-style:italic;
+    font-weight: bold;
+    font-size:30px;
+    background-color:#00602b;
+    text-align: center;
+    color: #ffffff
+}
+
+p{
+color:#230e06;
+background-color:#ffffff
+}
+#highlight{
+    font-weight:bold;
+    color:#ee1e28;
+    font-style: italic;
+}
+#footer{
+    text-align:center;
+    color:white;
+    background-color: #bb161d;
+}
+#special-item{
+    background-color: white;
+}

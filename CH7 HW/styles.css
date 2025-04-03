@@ -1,0 +1,67 @@
+/*Liam Rolf 3/6/25*/
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    line-height: 1.6;
+    background: #d92323;
+    color:white;
+    padding:20px;
+    font-size: 1.5em;
+}
+header{
+    background: #d92323;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.5em;
+}
+nav{
+    background: #ffcc00;
+    padding: 10px;
+    text-align: center;
+    
+}
+nav a:visited{
+    text-decoration: underline;
+    color:darkgreen;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+    font-weight:bold;
+    padding: 5px;
+    display: inline; /* Forces stacking on smaller
+screens */
+}
+nav a:hover{
+    color: #d92323;
+    background-color: #fff;
+}
+main:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+img{
+    height: 50%;
+    max-width: 70%;
+opacity:.7;
+object-fit: cover;
+}
+img:hover{
+    border: 1px solid #ddc10f;
+opacity: 1;
+transform: scale( 1.2);
+transition: transform 0.5s ease-in-out;
+/* Smooth scaling effect */
+}
+footer{
+    clear: both; /* Fix float issues */
+background: #d92323;
+color: white;
+text-align: center;
+}
